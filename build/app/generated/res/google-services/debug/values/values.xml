@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">817742062364-bn72qr93hrcm8pgav0e78q0cbqo7c3e7.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">817742062364</string>
+    <string name="google_api_key" translatable="false">AIzaSyC9i3Tk3YTR-Hbjfc58-lczLKbms3ajZXM</string>
+    <string name="google_app_id" translatable="false">1:817742062364:android:02c5af5d05d84fd62ed0d9</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC9i3Tk3YTR-Hbjfc58-lczLKbms3ajZXM</string>
+    <string name="google_storage_bucket" translatable="false">rarogaragem.appspot.com</string>
+    <string name="project_id" translatable="false">rarogaragem</string>
+</resources>

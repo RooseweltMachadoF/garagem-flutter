@@ -1,0 +1,85 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'vagas_controller.dart';
+
+// **************************************************************************
+// StoreGenerator
+// **************************************************************************
+
+// ignore_for_file: non_constant_identifier_names, unnecessary_brace_in_string_interps, unnecessary_lambdas, prefer_expression_function_bodies, lines_longer_than_80_chars, avoid_as, avoid_annotating_with_dynamic, no_leading_underscores_for_local_identifiers
+
+mixin _$VagasController on VagasControllerBase, Store {
+  late final _$vagasAtom =
+      Atom(name: 'VagasControllerBase.vagas', context: context);
+
+  @override
+  List<VagasModel> get vagas {
+    _$vagasAtom.reportRead();
+    return super.vagas;
+  }
+
+  @override
+  set vagas(List<VagasModel> value) {
+    _$vagasAtom.reportWrite(value, super.vagas, () {
+      super.vagas = value;
+    });
+  }
+
+  late final _$disponiveisQtdAtom =
+      Atom(name: 'VagasControllerBase.disponiveisQtd', context: context);
+
+  @override
+  int get disponiveisQtd {
+    _$disponiveisQtdAtom.reportRead();
+    return super.disponiveisQtd;
+  }
+
+  @override
+  set disponiveisQtd(int value) {
+    _$disponiveisQtdAtom.reportWrite(value, super.disponiveisQtd, () {
+      super.disponiveisQtd = value;
+    });
+  }
+
+  late final _$recuperaVagasAsyncAction =
+      AsyncAction('VagasControllerBase.recuperaVagas', context: context);
+
+  @override
+  Future recuperaVagas() {
+    return _$recuperaVagasAsyncAction.run(() => super.recuperaVagas());
+  }
+
+  late final _$registroEntradaAsyncAction =
+      AsyncAction('VagasControllerBase.registroEntrada', context: context);
+
+  @override
+  Future registroEntrada({required String numeroDaVaga}) {
+    return _$registroEntradaAsyncAction
+        .run(() => super.registroEntrada(numeroDaVaga: numeroDaVaga));
+  }
+
+  late final _$registraSaidaAsyncAction =
+      AsyncAction('VagasControllerBase.registraSaida', context: context);
+
+  @override
+  Future registraSaida(String numeroDaVaga) {
+    return _$registraSaidaAsyncAction
+        .run(() => super.registraSaida(numeroDaVaga));
+  }
+
+  late final _$qtdDisponiveisAsyncAction =
+      AsyncAction('VagasControllerBase.qtdDisponiveis', context: context);
+
+  @override
+  Future qtdDisponiveis() {
+    return _$qtdDisponiveisAsyncAction.run(() => super.qtdDisponiveis());
+  }
+
+  @override
+  String toString() {
+    return '''
+vagas: ${vagas},
+disponiveisQtd: ${disponiveisQtd}
+    ''';
+  }
+}

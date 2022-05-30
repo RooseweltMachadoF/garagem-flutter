@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "817742062364",
+    "project_id": "rarogaragem",
+    "storage_bucket": "rarogaragem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:817742062364:android:02c5af5d05d84fd62ed0d9",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "817742062364-bn72qr93hrcm8pgav0e78q0cbqo7c3e7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9i3Tk3YTR-Hbjfc58-lczLKbms3ajZXM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "817742062364-bn72qr93hrcm8pgav0e78q0cbqo7c3e7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

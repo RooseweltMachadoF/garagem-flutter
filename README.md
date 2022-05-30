@@ -26,4 +26,5 @@ O desenho arquitetural do projeto leva em conta diversos fatores que foram levan
 O gerenciamento de estado foi a minha escolha, achei que por ser um projeto pequeno o MobX atende muito bem, então todo o projeto foi feito com ele e os arquivos todos estão com nomenclatura de controller
 
 #Injeção de dependencia
-Seria utilizado o GetIt porem como o prazo foi um pouco curto não consegui implementar
+Seria utilizado o GetIt porem como o prazo foi um pouco curto(4 dias) não consegui implementar, por conta disso os testes de Widgets e unitários ficaram comprometidos
+
